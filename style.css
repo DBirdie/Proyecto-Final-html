@@ -5,11 +5,58 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.barranav {
-    display: flex;
-    flex-direction: row;
-    height: 20vh;
+
+header {
+    opacity: 100%;
     width: 100%;
-    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    background-color: black;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+    color: white;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 20px;;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
