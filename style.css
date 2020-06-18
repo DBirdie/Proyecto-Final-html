@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.barranav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
